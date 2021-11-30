@@ -48,9 +48,7 @@ a {
   background: lightcoral;
   display: inline-block; }
 
-.logo {
-  display: flex;
-  justify-content: space-between; }
+
 
 .bodyContactos {
   background: #837878;
@@ -114,7 +112,18 @@ ul {
     color: #bbbbbb;
     display: block;
     transition: all 0.3s ease; }
-
+    
+    @media (max-width: 767px) {
+      .footer-col {
+        width: 50%;
+        margin-bottom: 30px; } }
+    
+    @media (max-width: 574px) {
+      .footer-col {
+        width: 100%; } }
+    
+  
+    
 /*formulario*/
 /*font-w negrita, text al. al centro*/
 /*para que salte de limea y centrar el formu.*/
