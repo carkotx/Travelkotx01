@@ -171,6 +171,14 @@ ul {
 	}
 }
 
+@media screen and (max-width: 500px) {
+	.footer {
+		margin-top: 1150px;
+	}
+	
+}
+
+
 
 
 /*formulario*/
@@ -523,6 +531,7 @@ p {
 	font-weight: 600;
 	margin: auto;
 }
+
 @media screen and (max-width: 1000px) {
 	.tabla {
 		width: 45%;
@@ -532,7 +541,7 @@ p {
 	}
 }
 @media screen and (max-width: 700px) {
-	.tabla {
+	.tabla{
 		width: 45%;
 		padding: 30px;
 		>h2 {
@@ -541,8 +550,61 @@ p {
 	}
 }
 @media screen and (max-width: 500px) {
-	.tabla {
+	.tabla{
 		width: 85%;
 		padding: 20px;
+		
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 45%;
+		max-width: none;
+		margin-bottom: 40px;
+		flex-grow: initial;
+		
+	}
+}
+@media screen and (max-width: 700px) {
+	.container{
+		width: 45%;
+		padding: 30px;
+		>h2 {
+			margin-top: 40px;
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	.container{
+		width: 85%;
+		padding: 20px;
+		
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.contenedor {
+		width: 45%;
+		max-width: none;
+		margin-bottom: 40px;
+		flex-grow: initial;
+		
+	}
+}
+@media screen and (max-width: 700px) {
+	.contenedor{
+		width: 45%;
+		padding: 30px;
+		>h2 {
+			margin-top: 40px;
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	.contenedor{
+		width: 85%;
+		padding: 20px;
+	
 	}
 }

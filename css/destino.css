@@ -124,6 +124,10 @@ ul {
   .footer-col {
     width: 100%; } }
 
+@media screen and (max-width: 500px) {
+  .footer {
+    margin-top: 1150px; } }
+
 /*formulario*/
 /*font-w negrita, text al. al centro*/
 /*para que salte de limea y centrar el formu.*/
@@ -437,5 +441,43 @@ p {
 
 @media screen and (max-width: 500px) {
   .tabla {
+    width: 85%;
+    padding: 20px; } }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 45%;
+    max-width: none;
+    margin-bottom: 40px;
+    flex-grow: initial; } }
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 45%;
+    padding: 30px; }
+    .container > h2 {
+      margin-top: 40px; } }
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 85%;
+    padding: 20px; } }
+
+@media screen and (max-width: 1000px) {
+  .contenedor {
+    width: 45%;
+    max-width: none;
+    margin-bottom: 40px;
+    flex-grow: initial; } }
+
+@media screen and (max-width: 700px) {
+  .contenedor {
+    width: 45%;
+    padding: 30px; }
+    .contenedor > h2 {
+      margin-top: 40px; } }
+
+@media screen and (max-width: 500px) {
+  .contenedor {
     width: 85%;
     padding: 20px; } }
